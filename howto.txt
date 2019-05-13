@@ -1,0 +1,34 @@
+Vagrantfile and shell script to generate a Linux Ubuntu 16.04 virtual image with Docker, Python and Ansible
+
+Author: Bertrand Szoghy
+bertrandszoghy.wordpress.com
+
+Requirements
+
+You will need Vagrant, Oracle Virtualbox and (on Windows) Cygwin installed.
+
+Windows users: see https://github.com/bertrandszoghy/powershell_vagrant_install
+
+
+How to use:
+
+Copy files to target folder.
+
+On Windows:
+
+Open Cygwin Terminal (or Cygwin64 Terminal for 64bit Windows)
+
+Type the commands:
+
+cd /cygdrive/c/Vagrantboxes/ubuntu
+vagrant up
+
+Be patient.
+
+To log in to the image once it's ready (NO PASSWORD REQUIRED):
+
+vagrant ssh
+
+To bring down the image:
+
+vagrant halt
