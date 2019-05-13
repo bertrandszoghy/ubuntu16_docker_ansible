@@ -12,7 +12,7 @@ Windows users: see https://github.com/bertrandszoghy/powershell_vagrant_install
 
 How to use:
 
-Copy files to target folder.
+Copy files to target folder (as an example, I used C:\Vagrantboxes\ubuntu).
 
 On Windows:
 
